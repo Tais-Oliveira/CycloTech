@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300&family=Raleway&family=Varela+Round&display=swap');
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    margin: 10px;
+    gap: 10px;
+
+}
+
+.container > div{
+    background-color: white;
+    /*border: 1px solid grey;*/
+    font-size: 10px;
+    /*text-align: center;*/
+    padding: 10px;
+    margin: 0px ;
+}
+
+.container > #princOf{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    padding: 10px;
+    padding-left: 30px;
+    color: #2a7c6f;
+    margin-top: 20px;
+}
+.indic{
+    background-color: #2A7C6F;
+    border-color: #2A7C6F;
+    padding: 2px 12px;
+    border-style: solid;
+    color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 15.4%;
+}
+
+.produto{
+    font-size: 15px;
+    color: #2a7c6f;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.preco{
+font-size: 15px;
+color: #40BCA8;
+margin-top: 5px;
+margin-left: 10px;
+
+}
+
+.AddCar{
+  background-color: #2a7c6f; 
+  border: none;
+  width: 100%;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 13px;
+  transition-duration: 0.4s;
+}
+
+.AddCar:hover{
+    background-color: #55ac9d;
+    cursor: pointer;
+}
+.ofertas{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+a{
+    text-decoration: none;
+    color: #2A7C6F;
+}

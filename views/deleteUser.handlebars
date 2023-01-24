@@ -1,0 +1,135 @@
+<head>
+        <link rel="stylesheet" href="/css/estilo.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&family=Outfit:wght@200;300&family=Raleway&family=Varela+Round&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #dbe9e2;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#conteudo {
+    max-width: 450px;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem auto;
+    background-color: #fdfdfd;
+    padding: 1.5rem;
+    color: #2a7c6f;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px 0px #1f5b51;
+}
+header > h1 {
+    padding: 0 1rem 1rem;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+#form {
+    padding: 0 1rem 1rem;
+    margin-bottom: 0.5rem;
+}
+input, button {
+    padding: 5px;
+    margin: 5px;
+}
+input {
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 1.5px solid #2a7c6f;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+}
+button {
+  background-color: #2a7c6f;
+  border-color: #2a7c6f;
+  color: #ffffff;
+  padding: 7px;
+  min-width: 100px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  outline: none;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #2a7c6f;
+    transition: all .2s ease-out;
+}
+#dvoltar{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: 700;
+    width: 70%;
+    margin-left: 15%;
+    color: #2A7C6F;
+    margin-top: 5px;
+}
+#voltar:hover{
+    cursor: pointer;
+}
+#voltar i{
+    font-size: 18px;
+}
+
+    </style>
+</head>
+
+    <header class="header">
+        <img class="logo" src="../img/logo (1).png">
+        <span id="cycloTech">CYCLO TECH</span>
+    <nav >
+
+        <ul class="menu">
+            <li><a href="/" class="a-li">Página Inicial</a></li>
+            <li><a href="/pagprodutos" class="a-li">Produtos</a></li>
+            <li><a href="/recycle" class="a-li">Recycle</a></li>
+            <li><a href="/ajuda" class="a-li">Ajuda</a></li>
+            <li><a href="/sobre" class="a-li">Sobre a loja</a></li>
+            <li><a href="/login" class="a-li">Minha Conta</a></li>
+            <li><a href="/minhaconta" class="a-li">Configurações</a></li>
+            <li><a><i class="fa fa-search" id="search"></i></a></li>
+            <li><a href="#"><i class="material-icons" id="car">shopping_cart</i></a></li><span id="qtd-car">0</span>
+        </ul>
+    </nav>
+    </header>
+
+<div id="conteudo">
+        <header>
+            <h1>Deletar Conta</h1>
+        </header>
+        <div id="forms">
+            <form action="/deletarusuario" method="post" id="form">
+
+                <div class="inputNome">
+                    <input type="text" name="email" placeholder="Digite seu email para deletar a conta" required>
+                </div>
+
+                <button type="submit" id="button">Deletar</button>
+            </form>
+            <a href="/minhaconta" id="dvoltar"><i class="fa fa-arrow-circle-left"></i> Voltar</a>
+        </div>
+    </div>
+
+<footer class="rodape">
+<p>CYCLO TECH</p>
+<p id="fim">©2022 por CYCLO TECH.</p> 
+</footer>

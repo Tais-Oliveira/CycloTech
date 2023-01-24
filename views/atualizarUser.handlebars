@@ -1,0 +1,65 @@
+     <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="/css/estilo.css">
+    <title>from de cadastro do cliente</title>
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="../img/logo (1).png">
+        <span id="cycloTech">CYCLO TECH</span>
+    
+    <nav>
+        <ul class="menu">
+            <li><a href="/" class="a-li">Página Inicial</a></li>
+            <li><a href="/pagprodutos" class="a-li">Produtos</a></li>
+            <li><a href="/recycle" class="a-li">Recycle</a></li>
+            <li><a href="/ajuda" class="a-li">Ajuda</a></li>
+            <li><a href="/sobre" class="a-li">Sobre a loja</a></li>
+            <li><a href="/login" class="a-li">Minha Conta</a></li>
+            <li><a href="/minhaconta" class="a-li">Configurações</a></li>
+            <li><a><i class="fa fa-search" id="search"></i></a></li>
+            <li><a href="#"><i class="material-icons" id="car">shopping_cart</i></a></li><span id="qtd-car">0</span>
+        </ul>
+    </nav>
+    </header>
+
+      <div class="cx-form-log">
+
+<form action="/atualizado" method="POST">
+
+        <div id="form-cc">
+            <h2 id="tit-log">Atualizar Conta</h2>
+
+            <label>Novo Nome: </label>
+            <input type="text" name="name" required="required"><br>
+
+            <label>Novo E-mail: </label>
+            <input type="text" name="email" required="required"><br>
+            
+            <label> Nova Senha: </label>
+            <input type="password" name="password" required="required" minlengt="8" maxlength="15"><br>
+            
+            <div id="bt-env-log">
+            <button type="submit">Confirmar</button> 
+            </div>
+
+</form>
+            <a href="/atualizarcadastro" id="voltar"><i class="fa fa-arrow-circle-left"></i> Voltar</a>
+            </div>
+            </div>
+
+    <footer class="rodape">
+        <p>CYCLO TECH</p>
+        <p id="fim">©2022 por CYCLO TECH.</p> 
+    </footer>
+
+</body>
+</html>

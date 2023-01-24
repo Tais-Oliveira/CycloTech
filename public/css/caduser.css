@@ -1,0 +1,62 @@
+.cx-form-log{
+    background-color:  rgb(189, 233, 226);
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #2A7C6F;
+    font-size: 40px;
+    font-family: 'Manjari', sans-serif;
+}
+#tit-log{
+    text-align: center;
+    font-weight: bold;
+}
+#form-cc label{
+    margin-left: 15%;
+    font-weight: bold;
+}
+#bt-env-log button{
+    background-color: #2A7C6F;
+    color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 700;
+    width: 70%;
+    margin-left: 15%;
+    border-width: 0;
+}
+#bt-env-log button:hover{
+    cursor: pointer;
+}
+#form-cc input{
+    margin-left: 15%;
+    margin-bottom: 5px;
+    border: 1px solid #2A7C6F;
+    padding: 10px;
+    width: 70%;
+    transition: 0.1s;
+    outline: none;
+    border-radius: 10px;
+}
+#voltar{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-weight: 700;
+    width: 70%;
+    margin-left: 15%;
+    color: #2A7C6F;
+    margin-top: 30px;
+}
+#voltar:hover{
+    cursor: pointer;
+}
+#voltar i{
+    font-size: 18px;
+}

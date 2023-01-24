@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes da conta de usuário</title>
+        <link rel="stylesheet" href="/css/estilo.css">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            #detalhes{
+                background-color: #dcf1ed;
+                padding: 10%;
+                color: #2a7c6f;
+            }
+            #detalhes header h1{
+                font-size: 40px;
+            }
+            .inputNome, .inputEmail{
+                 font-size: 30px;
+                 font-weight: bold;
+            } 
+        </style>
+</head>
+<body>
+    <header class="header">
+        <img class="logo" src="../img/logo (1).png">
+        <span id="cycloTech">CYCLO TECH</span>
+    <nav >
+
+        <ul class="menu">
+            <li><a href="/" class="a-li">Página Inicial</a></li>
+            <li><a href="/pagprodutos" class="a-li">Produtos</a></li>
+            <li><a href="/recycle" class="a-li">Recycle</a></li>
+            <li><a href="/ajuda" class="a-li">Ajuda</a></li>
+            <li><a href="/sobre" class="a-li">Sobre a loja</a></li>
+            <li><a href="/login" class="a-li">Minha Conta</a></li>
+            <li><a href="/minhaconta" class="a-li">Configurações</a></li>
+            <li><a><i class="fa fa-search" id="search"></i></a></li>
+            <li><a href="#"><i class="material-icons" id="car">shopping_cart</i></a></li><span id="qtd-car">0</span>
+        </ul>
+    </nav>
+    </header>
+
+ <div id="detalhes">
+        <header>
+            <h1>Detalhes da Conta</h1>
+        </header>
+        <div id="forms">
+            
+                <div class="inputNome">
+                    <p>Usuário: {{cliente.name}}</p>
+                </div>
+
+                <div class="inputEmail">
+                    <p>Email: {{cliente.email}}</p>
+                </div>
+        </div>
+
+    </div>
+    <footer class="rodape">
+<p>CYCLO TECH</p>
+<p id="fim">©2022 por CYCLO TECH.</p> 
+</footer>
+    </body>
+    </html>
